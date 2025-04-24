@@ -85,7 +85,7 @@ if prompt1:
             elapsed_time = time.process_time() - start
 
             st.write(f"🕒 Response time: {elapsed_time:.2f} seconds")
-            st.write(f"💬 **Answer:** {response}")
+            st.write(f"💬 **Answer:** {response['answer']}")
 
             with st.expander("📄 Document Similarity Search"):
                 for i, doc in enumerate(response["context"]):
