@@ -2,7 +2,7 @@
 
 A Streamlit application that allows users to chat with their PDF documents using DeepSeek R1 1.5B model running locally through Ollama.
 
-![DeepSeek R1 Chat Demo](https://raw.githubusercontent.com/username/deepseek-r1-pdf-chat/main/assets/demo.png)
+
 
 ## Features
 
